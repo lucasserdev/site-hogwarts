@@ -162,7 +162,6 @@
 
     section.letter {
         margin-top: 1300px;
-        margin-bottom: 100px;
     }
 
     .letter-img {
@@ -173,4 +172,7 @@
     .letter-img img {
         width: 350px;
     }
-}
+
+    .header-container h1 {
+        margin-top: 100px;
+    }
