@@ -1,0 +1,175 @@
+
+/* ********** 1163PX ******** */
+
+
+
+
+@media (max-width: 1163px) {
+    body {
+        background-color: black;
+    }
+
+    section.info main {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .info-img {
+        text-align: center;
+    }
+
+    section.info main .info-text {
+        width: 450px;
+    }
+
+    .container-select-house {
+        width: 100%;
+    }
+
+    .container-select-house-bg {
+        padding-left: 0;
+    }
+
+    .choose-and-result {
+        flex-direction: column-reverse;
+        margin: auto;
+        align-items: center;
+    }
+
+    .choose-title {
+        margin: 20px 0;
+    }
+
+    section.letter {
+        margin-top: 120px;
+    }
+    
+    .header-container {
+        padding-left: 20px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header h2 {
+        font-size: 17px;
+        text-align: center;
+    }
+}
+
+
+
+/* ********* MAX 900PX ********* */
+
+
+
+@media (max-width: 900px) {
+    header .logo .text-logo {
+        display: none;
+    }
+}
+
+
+
+
+
+@media (max-width: 780px) {
+
+    header .container-menu {
+        justify-content: space-between;
+    }
+
+    header .logo {
+        margin-right: 0;
+    }
+    nav.menu ul {
+        display: none;
+    }
+
+    nav .menu-burguer {
+        display: block;
+        margin-right: 20px;
+        color: rgb(94, 147, 226);
+    }
+
+    header nav.menu ul {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 100vw;
+        height: 150px;
+        top: 110px;
+        left: 0;
+        padding-left: 20px;
+    }
+
+    nav.menu ul li {
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    nav.menu ul li:hover {
+        color: black;
+    }
+
+    .container-letter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .letter-text {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 450px){
+
+    .info-img img {
+        width: 370px;
+    }
+
+    section.info main .info-text {
+        width: 90%;
+    }
+
+    .result {
+        width: 100vw;
+    } 
+
+    .result-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .result-title h1 {
+        width: 90%;
+    }
+
+    .result p {
+        width: 90%;
+    }
+
+    .choose-cards img {
+        width: 230px;
+        height: auto;
+    }
+
+    section.letter {
+        margin-top: 1300px;
+    }
+
+    .letter-img {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .letter-img img {
+        width: 350px;
+    }
+}
