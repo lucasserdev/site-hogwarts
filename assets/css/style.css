@@ -340,6 +340,17 @@ header .header-container {
 
 
 
+/* TESTING SCROLL REVEAAL */
+.efeito-txt-topo, .efeito-img-topo {
+    visibility: hidden;
+}
+
+.result1, .choose-title, .efect1, .efect2, .efect3, .efect4, .letter-img, .letter-text {
+    visibility: hidden;
+}
+
+
+
 
 
 
